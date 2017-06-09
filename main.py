@@ -8,7 +8,7 @@ import os
 
 app = Flask(__name__)
 
-PAGE_ACCESS_TOKEN = 'EAAB159kkGrUBAChAXTIRzCb9G2be4LM1A1e0PWiSwZByUqsRHjc2VyX0jzZBe9yGvmIzjG0KpufOQo8wV5QBVxcP8V0zxojtooHlWL81rM5pZBjZBKANZC8fRuyaz4e6uwxAISFRCFjZAUdHLMZAkymOFORk3Fg6WAeKsvkCw2fmwZDZD'
+PAGE_ACCESS_TOKEN = os.environ["PAGE_ACCESS_TOKEN"]
 page = Page(PAGE_ACCESS_TOKEN)
 
 kernel = aiml.Kernel()
