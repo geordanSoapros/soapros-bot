@@ -1,0 +1,13 @@
+*.pyc
+*~
+
+MANIFEST
+build
+standard
+aiml
+templates
+dist
+python_aiml.egg-info
+
+*.brn
+*.brain
